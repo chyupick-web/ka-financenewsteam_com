@@ -1,4 +1,36 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+body{
+    background-color: #f6f6f6;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* 2nd navbar */
+.nav2 {
+     background-color: #94004f; 
+}
+.nav2 ul{
+    position: relative;
+    max-width: 90rem;
+    overflow-x: hidden;
+    margin: 0 -1rem;
+}
+.nav2 ul li {
+    white-space: nowrap;
+    font-size: 0.87rem;
+}
+.nav2 ul a {
+    color: #fff;
+    cursor: pointer;
+}
+.nav2 ul a:hover {
+    color: rgb(4, 4, 4);
+}
+.nav2 ul li:hover {
+    background-color: #f6f6f6;
+}
+
+
