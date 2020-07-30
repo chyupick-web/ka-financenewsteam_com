@@ -13,14 +13,17 @@ body{
      background-color: #94004f; 
 }
 .nav2 ul{
-    position: relative;
     max-width: 90rem;
-    overflow-x: hidden;
+    height: 2.5rem;
+    overflow: hidden;
     margin: 0 -1rem;
 }
 .nav2 ul li {
     white-space: nowrap;
+    height: inherit;
     font-size: 0.87rem;
+    position: relative;
+    transition: background 0.3s ease-in;
 }
 .nav2 ul a {
     color: #fff;
@@ -31,6 +34,9 @@ body{
 }
 .nav2 ul li:hover {
     background-color: #f6f6f6;
+}
+.nav2 ul a:hover i {
+    display: none;
 }
 
 
