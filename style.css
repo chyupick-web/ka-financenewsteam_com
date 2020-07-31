@@ -8,6 +8,18 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
+/* 1st navbar */
+.navbar ul li {
+    transition: background 0.3s ease-in;
+}
+.navbar ul li:hover {
+    background-color: #f6f6f6;
+}
+.navbar ul li a:hover {
+    color: #ed017f !important;
+}
+
 /* 2nd navbar */
 .nav2 {
      background-color: #94004f; 
