@@ -1,3 +1,5 @@
+
+=======
 *{
     padding: 0;
     margin: 0;
@@ -123,6 +125,79 @@ body{
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
+/*carousel section*/
+.carousel-container-length {
+    background-color: #f6f6f6;
+    padding-top: 1em;
+}
+
+.ads-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.ads-container {
+    width: 50%;
+}
+
+.ads-container:nth-child(odd) {
+    padding-right: .5em;
+    padding-top: 1em;
+}
+
+.ads-container:nth-child(even) {
+    padding-left: .5em;
+    padding-top: 1em
+}
+
+.ads-container img {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+.bd-radius {
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+@media (min-width: 992px) {
+    .carousel-container {
+        width: 70%;
+    }
+    
+    .ads-wrapper {
+        width: 30%;
+        height: auto;
+        margin-left: 1em;
+    }
+    .ads-container {
+        width: 50%;
+        height: 29vh;
+    }
+
+    .ads-container:nth-child(odd) {
+        padding-right: .5em;
+        padding-top: 0;
+    }
+    
+    .ads-container:nth-child(even) {
+        padding-left: .5em;
+        padding-top: 0;
+    }
+
+    .ads-container:nth-child(3) {
+        padding-top: 1em;
+    }
+    
+    .ads-container:nth-child(4) {
+        padding-top: 1em;
+    }
+    
+    .img-styling {
+        height: 57.5vh;
+    }
+}
 
 /*-----bottom-icons-----*/
 .bottom-icons{
@@ -150,5 +225,3 @@ body{
     width: 100%;
   }
 }
-
-
