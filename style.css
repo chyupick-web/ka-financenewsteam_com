@@ -94,7 +94,7 @@ body{
     height: 100vh;
     margin: 10% -5%;
     padding: 0 -1rem;
-
+    z-index: 10;
   }
   
   /* Links inside the dropdown */
@@ -111,5 +111,32 @@ body{
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-  
-  
+
+/*-----bottom-icons-----*/
+.bottom-icons{
+  margin: 100px auto;
+}
+.col-1{
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.col-1 img{width: 122px;
+  height: 55px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px;
+  padding-right: 0px;
+}
+@media only screen and (max-width: 700px) {
+  .resposive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
