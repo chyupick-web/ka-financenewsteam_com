@@ -1,5 +1,4 @@
 
-
 *{
     padding: 0;
     margin: 0;
@@ -125,7 +124,9 @@ body{
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
+
 /*carousel section*/
+
 .carousel-container-length {
     background-color: #f6f6f6;
     padding-top: 1em;
@@ -171,6 +172,7 @@ body{
         height: auto;
         margin-left: 1em;
     }
+
     .ads-container {
         width: 50%;
         height: 29vh;
@@ -197,34 +199,47 @@ body{
     .img-styling {
         height: 57.5vh;
     }
+
+    .bg {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-right: 1em;
+    }
+
+    .bg img {
+        height: 4vh;
+    }
 }
 
 /*-----bottom-icons-----*/
-.bottom-icons{
-  margin: 100px auto;
+
+@media (min-width: 768px) {    
+    .bottom-icons-container {
+        background-color: #f6f6f6;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .bg {
+        background-color: #ffff;
+        border: 1px solid #ffff;
+        border-radius: 5px;
+        flex: 1 1 auto;
+        margin-right: .5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        text-align: center;
+    }
+
+    .bg:last-child {
+        margin-right: 0;
+    }
+
+    .bg img {
+        height: 3vh;
+    }
 }
-.col-1{
-  margin-top: 30px;
-  margin-left: 70px;
-}
-.col-1 img{width: 122px;
-  height: 55px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 40px;
-  padding-right: 0px;
-}
-@media only screen and (max-width: 700px) {
-  .resposive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
+
 
 /**********GROUP 2 CSS**********/
 div.laptop-div{
@@ -290,4 +305,5 @@ div.laptop-div card-body {
   }
 
 }
+
 
